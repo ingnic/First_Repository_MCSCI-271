@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.profiles.windows": {
+    "MSYS2 UCRT64": {
+        "path": "C:\\msys64\\usr\\bin\\bash.exe",
+        "args": ["--login", "-i"],
+        "env": { "MSYSTEM": "UCRT64" }
+    }
+},
+// "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT64" //Con esto abre por defecto la terminal de MSYS2. Para compilar y ejecutar C++ en la terminal de VS Code.
+"terminal.integrated.defaultProfile.windows": "Git Bash" //Con esto abre por defecto la terminal de Git Bash, para sibor a re[psotprops y versionar.
+}

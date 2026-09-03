@@ -1,0 +1,77 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+/*     Edicion de esta tarea para poder ver la ejecucion dentro de la terminal de VS Code.
+    {
+      "label": "Compilar y ejecutar C++",
+      "type": "shell",
+      "command": "g++",
+      "args": ["${file}", "-o", "${fileDirname}/main"],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "detail": "Compila el programa"
+    }, */
+
+    
+    {
+      "label": "Compilar y ejecutar C++",
+      "type": "shell",
+      "command": "g++",
+      "args": ["${file}", "-o", "${fileDirname}/main", "&&", "${fileDirname}/main"],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "detail": "Compila y ejecuta el programa en la terminal integrada"
+    }
+  ]
+}
+
+
+/* Se edita este bloque, para poder ver la ejecucion en la Terminal de VS Code.
+     {
+      "label": "Ejecutar",
+      "type": "shell",
+      "command": "${fileDirname}/main",
+      "dependsOn": "Compilar y ejecutar C++",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "test",
+      "detail": "Ejecuta el programa"
+    } */
+
+    {
+  "label": "Ejecutar",
+  "type": "shell",
+  "command": "./main",
+  "dependsOn": "Compilar y ejecutar C++",
+  "options": {
+    "cwd": "${fileDirname}"
+  },
+  "presentation": {
+    "echo": true,
+    "reveal": "always",
+    "focus": true,
+    "panel": "shared",
+    "showReuseMessage": false,
+    "clear": true
+  },
+  "group": "test",
+  "detail": "Ejecuta el programa en la terminal integrada"
+}
+
+  ]
+}

@@ -1,0 +1,17 @@
+Intoduccion 
+
+Hi everyone, my name is Nic. I’m a big fan of technology, videogames and surfing. I’m still fairly new to living in California, and my English isn’t very strong yet, but I’ll do my best to communicate clearly with all of you — with a little help from translators.
+I really enjoy working with databases and learning about Software Quality Assurance. As a personal project, alongside this class, I’m currently learning Selenium WebDriver.
+I’m excited to learn a lot in this course and also from the perspectives each of you share.
+Looking forward to studying together.
+
+
+Libro:
+C++ Programming: Program Design Including Data Structures
+By  malik, d.s.
+Edition : 8TH 18
+Publisher : CENGAGE L
+ISBN 13 : 9781337117562
+
+https://github.com/ismailhakkii/software-books/blob/main/D.S.%20Malik%20-%20C%2B%2B%20Programming.%20Program%20Design%20including%20Data%20Structures-Cengage%20(2018).pdf
+
